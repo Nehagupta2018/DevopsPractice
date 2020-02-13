@@ -46,3 +46,11 @@ Its done!
  Its done!
  
  */
+ 
+ /*
+ to find running port of nexus
+ --> Navigate to etc folder in the nexus folder.
+ --> type the following
+  grep port nexus-default.properties
+  
+  */
