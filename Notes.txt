@@ -35,7 +35,7 @@ Its done!
 --> Navigate to Nexus folder. You will see two folders there one nexus and one sonatype default.
 --> Enter into nexus and its bin folder and edit the nexus file using 'vim nexus'.
 --> Edit the file by uncommenting the variable 
-INSTALL4J_JAVA_HOME_OVERRIDE=
+# INSTALL4J_JAVA_HOME_OVERRIDE=
 --> Add the latest jdk path to it and save it as follows:
  INSTALL4J_JAVA_HOME_OVERRIDE=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre
  --> Note to check jvm path by the following command
