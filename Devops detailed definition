@@ -1,0 +1,17 @@
+/*
+
+Devops is a software development approach which includes plan, code, build, test, deploy, operate and monitor.
+Its stages are:
+Version control (GIT, Subversion etc)
+Continuous integration -- continuous build (Maven, Nexus, Jenkins)
+continuous delivery -- continuous testing (Docker)
+continuous deployment (Splunk)
+
+
+Jenkins is the heart of the lifecycle.
+
+Continuous Integration and Continuous Delivery pipeline:
+Version control --> Build --> Unit Test --> Deploy --> Auto Test --> Deploy to Production --> Measure and validate
+
+Deployable unit path is called a pipeline.
+
