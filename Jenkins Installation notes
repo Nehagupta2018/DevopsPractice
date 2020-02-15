@@ -1,0 +1,58 @@
+/*
+Jenkins is a java application, it is platform independent i.e. installation and usage is indepenedent of operating systems.
+It is used for continuous integration and continuous delivery.
+
+
+To use jenkins on your machine, you first need to install apache tomcat server.
+Download apache tomcat, extract it and copy the file to Applications folder. It is ready.
+
+Next go to https://jenkins.io/download/ 
+Click on Generic java package (.war)
+
+jenkins.war file will be downloaded and is available in downloads folder
+
+You can copy this file to Desktop too if you want to run it standalone sometimes.
+ 
+ Now copy the jenkis.war file into tomcat/webapps folder. (/Applications/apache-tomcat-9.0.31/webapps)
+ As soon as you copied jenkins.war will automatically create a jenkins folder in it.
+ 
+ Now go to apache/bin folder 
+ 
+ Type ./startup.sh command to start tomcat server
+ 
+ Now tomcat will be started.
+ Go to browser and type:
+ http://localhost:8080/jenkins/
+ 
+ Jenkins will be started and will ask for admin password.
+ To fetch password type the following in terminal:
+ cat /Users/neha/.jenkins/secrets/initialAdminPassword
+ 
+ copy the password displayed and install the plugins suggested.
+ 
+ Create an account on Jenkins by giving a username and password and jenkins is ready to use.
+ 
+*/
+
+
+
+/*
+
+Install jenkins-lts usinf homebrew: (Not recommended though)
+ 
+first install homebrew using the following command:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+next install jenkins using the following command:
+brew install jenkins-lts
+
+Jenkins will be installed at the following default location:
+/usr/local/Cellar/jenkins-lts/2.204.2: 7 files, 63.9MB, built in 26 seconds
+
+Copy the jenkins file to tomcat/webapps folder
+/Applications/apache-tomcat-9.0.31/webapps
+
+*/
+
+
+
