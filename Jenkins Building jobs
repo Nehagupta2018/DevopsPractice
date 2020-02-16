@@ -8,3 +8,19 @@ build steps
 post build actions
 
 
+Give the required details and build the jobs.
+In Souce code management we can give GIT details for our project and build it.
+We can also install Nexus plugin in Jenkins and give our nexus repository URL to save the artifacts generated(jar files) directly at our speified location as a build job action.
+
+Second way of building jobs is through scripting which is called pipeline.
+Click on New Item --> Enter a name --> select pipeline --> OK
+it has the following four steps:
+General description
+build triggers
+Advance Project options
+pipeline
+
+Two ways of pipeline:
+Scripted pipeline
+
+Declarative pipeline
